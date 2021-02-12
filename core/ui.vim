@@ -86,7 +86,7 @@ endfunction
 
 let s:candidate_theme = ['gruvbox8', 'deus', 'solarized8', 'onedark', 'neodark',
       \ 'edge', 'sonokai', 'tokyonight', 'gruvbox_material']
-let s:idx = utils#RandInt(0, len(s:candidate_theme)-1)
+let s:idx = 7
 let s:theme = s:candidate_theme[s:idx]
 
 let s:colorscheme_func = printf('s:my_theme_dict.%s()', s:theme)

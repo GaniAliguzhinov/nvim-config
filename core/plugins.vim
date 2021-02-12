@@ -452,14 +452,14 @@ augroup END
 
 """""""""""""""""""""""""UltiSnips settings"""""""""""""""""""
 " Trigger configuration. Do not use <tab> if you use YouCompleteMe
-let g:UltiSnipsExpandTrigger='<c-j>'
+let g:UltiSnipsExpandTrigger='<C-e>'
 
 " Do not look for SnipMate snippets
 let g:UltiSnipsEnableSnipMate = 0
 
 " Shortcut to jump forward and backward in tabstop positions
-let g:UltiSnipsJumpForwardTrigger='<c-j>'
-let g:UltiSnipsJumpBackwardTrigger='<c-k>'
+let g:UltiSnipsJumpForwardTrigger='<C-e>'
+let g:UltiSnipsJumpBackwardTrigger='<C-k>'
 
 " Configuration for custom snippets directory, see
 " https://jdhao.github.io/2019/04/17/neovim_snippet_s1/ for details.
